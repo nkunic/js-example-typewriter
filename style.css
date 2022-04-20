@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  height: 10rem;
+  padding: 1rem;
+  font-family: Lato;
+  font-size: 3rem;
+  border: 1px solid black;
+}
