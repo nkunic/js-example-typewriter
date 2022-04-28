@@ -24,9 +24,8 @@ body {
   align-items: center;
   justify-content: center;
   width: 30rem;
-  height: 10rem;
+  height: auto;
   padding: 1rem;
-  font-family: Lato;
-  font-size: 3rem;
+  font-size: 1.25rem;
   border: 1px solid black;
 }

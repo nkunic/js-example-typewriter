@@ -6,7 +6,7 @@ import './css/style.css';
 // Write Javascript code!
 
 /*** TYPEWRITER ***/
-var wrapp = document.querySelector('.wrapp');
+var reloadBbutton = document.querySelector('.btn');
 var content = document.querySelector('.content');
 var text = 'Hello from Javascript! :)';
 
@@ -27,3 +27,5 @@ function typing() {
   }, 250);
 }
 typing();
+
+reloadBbutton.addEventListener('click', typing);
