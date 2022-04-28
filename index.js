@@ -2,15 +2,17 @@
 import './style.css';
 
 // Write Javascript code!
-var wrapp = document.querySelector('.wrapp');
 
-var text = 'Zdravo iz Javascripta! :)';
+/*** TYPEWRITER ***/
+var wrapp = document.querySelector('.wrapp');
+var text = 'Hello from Javascript! :)';
+
 function typing() {
   //var textArrayTogether = text.split(); /// All together in array
   //console.log(textArrayTogether);
 
   var textArrayAlone = text.split(''); // Split alone in array
-  console.log(textArrayAlone);
+  //console.log(textArrayAlone);
 
   var loop = setInterval(function () {
     if (textArrayAlone.length !== 0) {
